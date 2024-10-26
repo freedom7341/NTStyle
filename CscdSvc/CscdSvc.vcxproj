@@ -164,13 +164,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="draw.c" />
     <ClCompile Include="hook.c" />
     <ClCompile Include="svc.c" />
     <ClCompile Include="thmfunc.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="draw.h" />
     <ClInclude Include="hook.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="svc.h" />

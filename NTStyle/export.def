@@ -1,0 +1,5 @@
+LIBRARY NTSTYLE
+EXPORTS
+    InitUserHook @1
+    InstallUserHook @2
+    RemoveUserHook @3

@@ -21,9 +21,6 @@
     <ClCompile Include="thmfunc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="draw.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="hook.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -39,9 +36,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="draw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="hook.h">

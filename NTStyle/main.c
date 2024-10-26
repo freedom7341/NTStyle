@@ -1,19 +1,16 @@
 /* * * * * * * *\
-	THMFUNC.C -
-		Copyright © 2024 Brady McDermott
+	MAIN.C -
+		Copyright © 2024 Brady McDermott, Vortesys
 	DESCRIPTION -
-		Functions for use with the
-		User32 Api Hook.
+		Exported functions
 	LICENSE INFORMATION -
 		MIT License, see LICENSE.txt in the root folder
 \* * * * * * * */
 
-/* Includes */
-#define VC_EXTRALEAN
-#define WIN32_LEAN_AND_MEAN
-#include <windows.h>
-#include "hook.h"
-#include "thmfunc.h"
+/* Headers */
+#include "draw.h"
+#include "resource.h"
+#include <strsafe.h>
 
 /* Functions */
 
@@ -28,7 +25,7 @@ LRESULT CALLBACK ThemeDefWindowProcA(
 	LPARAM lParam
 )
 {
-	return NTStyleWindowProc(hWnd, Msg, wParam, lParam, g_user32ApiHook.DefWindowProcA);
+	return NTStyleWindowProc(hWnd, Msg, wParam, lParam, &DefWindowProcA);
 }
 
 /* * * *\
@@ -42,7 +39,7 @@ LRESULT CALLBACK ThemeDefWindowProcW(
 	LPARAM lParam
 )
 {
-	return NTStyleWindowProc(hWnd, Msg, wParam, lParam, g_user32ApiHook.DefWindowProcW);
+	return NTStyleWindowProc(hWnd, Msg, wParam, lParam, &DefWindowProcW);
 }
 
 /* * * *\
@@ -119,7 +116,7 @@ int WINAPI ThemeSetWindowRgn(
 	BOOL bRedraw
 )
 {
-	return (int)g_user32ApiHook.SetWindowRgn(hWnd, hRgn, bRedraw);
+	return SetWindowRgn(hWnd, hRgn, bRedraw);
 }
 
 /* * * *\
@@ -132,7 +129,7 @@ BOOL WINAPI ThemeGetScrollInfo(
 	LPSCROLLINFO lpsi
 )
 {
-	return (BOOL)g_user32ApiHook.GetScrollInfo(hWnd, nBar, lpsi);
+	return GetScrollInfo(hWnd, nBar, lpsi);
 }
 
 /* * * *\
@@ -146,5 +143,5 @@ int WINAPI ThemeSetScrollInfo(
 	BOOL bRedraw
 )
 {
-	return (int)g_user32ApiHook.SetScrollInfo(hWnd, nBar, lpsi, bRedraw);
+	return SetScrollInfo(hWnd, nBar, lpsi, bRedraw);
 }

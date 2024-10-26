@@ -8,9 +8,12 @@
 \* * * * * * * */
 
 /* Headers */
-#include "hook.h"
-#include "draw.h"
+#define VC_EXTRALEAN
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
 #include <strsafe.h>
+#include "draw.h"
+#include "resource.h"
 
 /* Global Variables */
 // System Metrics

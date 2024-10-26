@@ -11,9 +11,6 @@
 /* Pragmas */
 #pragma once
 
-/* Includes */
-#include <wtypes.h>
-
 /* Functions */
 LRESULT CALLBACK ThemeDefWindowProcA(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK ThemeDefWindowProcW(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam);

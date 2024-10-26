@@ -12,7 +12,7 @@
 #pragma once
 #endif
 
-/* Includes */
+/* Headers */
 #include "..\CscdCom\error.h"
 
 /* Icon Library */

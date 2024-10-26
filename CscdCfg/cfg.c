@@ -11,7 +11,7 @@
 /* Pragmas */
 #pragma warning(disable : 28159) // error C28159: 'GetTickCount': was declared deprecated
 
-/* Includes */
+/* Headers */
 #include <windows.h>
 #include <tchar.h>
 #include <strsafe.h>

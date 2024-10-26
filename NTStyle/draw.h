@@ -10,9 +10,6 @@
 /* Pragmas */
 #pragma once
 
-/* Includes */
-#include <wtypes.h>
-
 /* Definitions */
 // NT Style Draw Frame Control Types
 #define NSDFC_TYPE_BUTTON 0x00 // Standard window button

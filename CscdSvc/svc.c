@@ -8,7 +8,7 @@
 		MIT License, see LICENSE.txt in the root folder
 \* * * * * * * */
 
-/* Includes */
+/* Headers */
 #include <windows.h>
 #include <tchar.h>
 #include <strsafe.h>
@@ -16,7 +16,7 @@
 #include "hook.h"
 #include "..\CscdCom\error.h"
 
-/* Defines */
+/* Definitions */
 #define SVCNAME TEXT("CscdSvc")
 #define SVCDESC TEXT("Cascades' Theme Service")
 

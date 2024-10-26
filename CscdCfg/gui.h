@@ -12,9 +12,6 @@
 #pragma comment(lib, "ComCtl32.lib")
 #pragma comment(lib, "Shlwapi.lib")
 
-/* Includes */
-#include <wtypes.h>
-
 /* Global Variables */
 // Handles
 extern HINSTANCE	g_hAppInstance;

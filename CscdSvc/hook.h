@@ -13,10 +13,6 @@
 #pragma comment(lib, "Msimg32.lib")
 #pragma comment(lib, "Shlwapi.lib")
 
-/* Includes */
-#include <wtypes.h>
-#include "usrapihk.h"
-
 /* Global Variables */
 extern USERAPIHOOK g_user32ApiHook;
 extern BYTE gabDWPmessages[UAHOWP_MAX_SIZE];

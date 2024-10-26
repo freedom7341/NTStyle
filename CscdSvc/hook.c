@@ -11,17 +11,18 @@
 #pragma warning(disable : 4996) // error C4996: 'GetVersion': was declared deprecated
 #pragma warning(disable : 28159) // error C28159: 'GetVersion': was declared deprecated
 
-/* Includes */
+/* Headers */
 #define VC_EXTRALEAN
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #include <tlhelp32.h>
 #include <strsafe.h>
 #include "hook.h"
+#include "usrapihk.h"
 #include "thmfunc.h"
 #include "svc.h"
 
-/* Defines */
+/* Definitions */
 #define WM_THEMECHANGED 0x031A
 
 /* Global Variables */

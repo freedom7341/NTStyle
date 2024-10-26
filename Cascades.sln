@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CscdSvc", "CscdSvc\CscdSvc.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CscdCfg", "CscdCfg\CscdCfg.vcxproj", "{0071D3E6-CB60-43FD-A17F-9D7DF735A5B4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NTStyle", "NTStyle\NTStyle.vcxproj", "{B8E06B98-1D13-4207-8A00-B2F01AEE6741}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NTStyle", "Styles\NTStyle\NTStyle.vcxproj", "{B8E06B98-1D13-4207-8A00-B2F01AEE6741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

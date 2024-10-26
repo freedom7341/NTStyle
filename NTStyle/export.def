@@ -1,5 +1,12 @@
 LIBRARY NTSTYLE
 EXPORTS
-    InitUserHook @1
-    InstallUserHook @2
-    RemoveUserHook @3
+    ThemeVerifyCompatible @1
+    ThemeDefWindowProcA @2
+    ThemeDefWindowProcW @3
+    ThemePreWindowProc @4
+    ThemePostWindowProc @5
+    ThemePreDefDlgProc @6
+    ThemePostDefDlgProc @7
+    ThemeSetWindowRgn @8
+    ThemeGetScrollInfo @9
+    ThemeSetScrollInfo @10

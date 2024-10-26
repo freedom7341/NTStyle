@@ -8,14 +8,14 @@
 \* * * * * * * */
 
 /* Headers */
-#include "gui.h"
-#include "cfg.h"
-#include "resource.h"
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #include <windowsx.h>
 #include <CommCtrl.h>
 #include <shlwapi.h>
+#include "gui.h"
+#include "cfg.h"
+#include "resource.h"
 
 /* Variables */
 // Handles

@@ -1,6 +1,6 @@
 /* * * * * * * *\
 	DRAW.C -
-		Copyright © 2024 Brady McDermott, Vortesys
+		Copyright © 2024-2025 Brady McDermott, Vortesys
 	DESCRIPTION -
 		Drawing functions, titlebars, borders, etc.
 	LICENSE INFORMATION -

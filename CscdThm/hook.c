@@ -1,6 +1,6 @@
 /* * * * * * * *\
 	MAIN.C -
-		Copyright © 2024 Brady McDermott
+		Copyright © 2024-2025 Brady McDermott
 	DESCRIPTION -
 		User32 UserApiHook testing program.
 	LICENSE INFORMATION -
@@ -19,7 +19,6 @@
 #include <strsafe.h>
 #include "hook.h"
 #include "thmfunc.h"
-#include "svc.h"
 
 /* Defines */
 #define WM_THEMECHANGED 0x031A

@@ -1,6 +1,6 @@
 /* * * * * * * *\
 	THMFUNC.H -
-		Copyright © 2024 Brady McDermott
+		Copyright © 2024-2025 Brady McDermott
 	DESCRIPTION -
 		Functions for use with the
 		User32 Api Hook.

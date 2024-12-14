@@ -1,6 +1,6 @@
 /* * * * * * * *\
 	DRAW.H -
-		Copyright © 2024 Brady McDermott, Vortesys
+		Copyright © 2024-2025 Brady McDermott, Vortesys
 	DESCRIPTION -
 		The header for control drawing functions.
 	LICENSE INFORMATION -

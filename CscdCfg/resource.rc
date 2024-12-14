@@ -20,7 +20,7 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 #include "lang\dlg_en-US.rc" // English (US)
 
 /* Icon Library */
-IDI_MAIN	ICON	icons\cascades.ico
+IDI_MAIN	ICON	icons\cscdcfg.ico
 
 /* Version Information */
 #define APSTUDIO_HIDDEN_SYMBOLS

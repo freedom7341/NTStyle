@@ -316,7 +316,8 @@ BOOL WINAPI UnregisterUserApiHookRemote(VOID)
 		CloseHandle(hProcessSnapshot);
 
 	// TODO: figure out what combinations gives us 0x1FFFFFu
-	hProcess = OpenProcess(0x1FFFFFu, FALSE, dwProcessID);
+	//hProcess = OpenProcess(0x1FFFFFu, FALSE, dwProcessID);
+	hProcess = OpenProcess(PROCESS_CREATE_THREAD | PROCESS_VM_OPERATION | PROCESS_VM_WRITE, FALSE, dwProcessID);
 
 	if (hProcess == NULL)
 	{
